@@ -182,7 +182,8 @@
             //$('.subscribe-alert').delay(6000).fadeOut();
 
         } else if (resp.result === 'error') {
-            $('.subscribe-alert').html('<div class="alert alert-danger">' + resp.msg + '</div>').fadeIn(1000);
+            let msg = "Ingresa un correo válido.";
+            $('.subscribe-alert').html('<div class="alert alert-danger">' + msg + '</div>').fadeIn(1000);
         }
     }
 

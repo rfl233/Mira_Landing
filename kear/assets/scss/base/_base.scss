@@ -77,26 +77,6 @@ body {
 	text-shadow: none;
 }
 
-a {
-	//.transition(0.3s, ease);
-	color: $color-theme;
-}
-
-a:hover {
-	color: darken($color-theme, 10%);
-	text-decoration: none;
-}
-
-a:focus {
-	color: darken($color-theme, 10%);
-	outline: none;
-	text-decoration: none;
-}
-
-a:active {
-	color: darken($color-theme, 10%);
-	outline: none;
-	text-decoration: none;
 }
 
 textarea {

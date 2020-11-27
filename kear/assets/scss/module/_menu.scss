@@ -43,13 +43,12 @@
 			text-transform: capitalize;
 			font-weight: 400;
 			line-height: 140px;
-			color: $color-body;
+			color: red!important;
 			padding: 0;
 			letter-spacing: -0.2px;
-
-			&:hover {
-				color:#5e17eb;
-			}
+		}
+		.navbar-nav > li > a:hover {
+			color: red!important;
 		}
 	}
 }

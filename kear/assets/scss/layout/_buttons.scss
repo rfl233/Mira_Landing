@@ -27,7 +27,7 @@
 }
 
 /* Button Primary */
-.btn--primary {
+/*.btn--primary {
 	background-color: #5E17EB;
 	color: $color-white;
 	border-color: #5E17EB;
@@ -36,8 +36,8 @@
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
-	background-color: darken($color-theme, 10%);
-	border-color: darken($color-theme, 10%);
+	background-color: darken(#5E17EB, 10%);
+	border-color: darken(#5E17EB, 10%);
 	color: $color-white;
 }
 

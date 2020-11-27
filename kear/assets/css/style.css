@@ -2641,4 +2641,67 @@ li.open > a:focus {
   }
 }
 
+
+
+.item-menu:hover{
+  color:#5E17EB!important;
+  transition: 0.3s;
+}
+.btn--lead {
+	background-color: #5E17EB;
+	/* color: $color-white; */
+	border-color: #5E17EB;
+}
+
+.btn--lead:active,
+.btn--lead:focus,
+.btn--lead:hover {
+	background-color: darken(#5E17EB, 10%);
+	border-color: darken(#5E17EB, 10%);
+	/* color: $color-white; */
+}
+
 /*# sourceMappingURL=style.css.map */
+
+.feature-panel .feature-content ul li:before{
+  color: #5E17EB!important;
+}
+
+.form-control:focus{
+  border-color: #5E17EB;
+}
+
+.btn--farmacias {
+	background-color: #5E17EB;
+	color: $color-white;
+	border-color: #5E17EB;
+}
+
+.btn--farmacias:active,
+.btn--farmacias:focus,
+.btn--farmacias:hover {
+	background-color: darken(#5E17EB, 10%);
+	border-color: darken(#5E17EB, 10%);
+	color: $color-white;
+}
+
+a {
+	//.transition(0.3s, ease);
+	color: $color-theme;
+}
+
+a:hover {
+	color: darken(#5E17EB, 10%);
+	text-decoration: none;
+}
+
+a:focus {
+	color: darken(#5E17EB, 10%);
+	outline: none;
+	text-decoration: none;
+}
+
+blockquote:active {
+	color: darken(#5E17EB, 10%);
+	outline: none;
+	text-decoration: none;

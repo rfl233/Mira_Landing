@@ -2673,7 +2673,7 @@ li.open > a:focus {
 
 .btn--farmacias {
 	background-color: #5E17EB;
-	color: $color-white;
+	/* color: $color-white; */
 	border-color: #5E17EB;
 }
 
@@ -2682,12 +2682,12 @@ li.open > a:focus {
 .btn--farmacias:hover {
 	background-color: darken(#5E17EB, 10%);
 	border-color: darken(#5E17EB, 10%);
-	color: $color-white;
+	/* color: $color-white; */
 }
 
-a {
-	//.transition(0.3s, ease);
-	color: $color-theme;
+a{
+	/* transition(0.3s, ease);
+	color: $color-theme; */
 }
 
 a:hover {
@@ -2704,4 +2704,9 @@ a:focus {
 blockquote:active {
 	color: darken(#5E17EB, 10%);
 	outline: none;
-	text-decoration: none;
+  text-decoration: none;
+}
+
+.footer .footer-bottom .footer-social a:hover {
+  color: #5E17EB;
+}
